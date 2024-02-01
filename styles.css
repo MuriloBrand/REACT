@@ -1,0 +1,37 @@
+.header-app{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0 0 5px gray;
+}
+.header-app nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.header-app nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: coral;
+    border: 1px solid coral;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.header-app nav ul a:hover{
+    color: white;
+    background-color: coral;
+}
+.header-app div{
+    display: flex;
+    align-items: center;
+    gap: 100%;
+}
+.header-app img {
+    width: 30px;
+    height: 30px;
+}
